@@ -1,0 +1,174 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.profile{
+  width: 100%;
+  float: left;
+  color: rgb(87, 9, 87);
+  background-image:("kris.jpeg");
+  background-size: cover;
+  body {
+    background-image:("gb/latar.jpg");
+  }
+}
+.wrapper_profile{
+  background-color: rgba(161, 55, 248, 0.966);
+  padding: 30px 20px;
+  float: left;
+  width: 100%;
+}
+.photo_name{
+  width: 50%;
+  float: left;
+  padding: 15px;
+  margin: 0 25%;
+  background-color: rgba(148, 7, 54, 0.3);
+  border-radius: 10px;
+}
+.photo_name img{
+  height: 160px;
+  width: 160px;
+  border-radius: 100%;
+  float: left;
+}
+.photo_name h1{
+  padding: 40px 50px;
+  float: left;
+}
+.detail_profile{
+  float: left;
+  text-align: center;
+  width: 100%;
+}
+.detail_profile h3{
+  margin-block-end: 2px;
+}
+.detail_profile p{
+  margin-block-start: 2px;
+}
+.hobby{
+  width: 100%;
+  background-color: rgba(197, 127, 255, 0.925);
+  margin-top: 5px;
+  float: left;
+}
+
+.hobby h3{
+  text-align: center;
+  background-color: rgb(127, 120, 148);
+  padding:  20px;
+  margin: 0;
+}
+.flex_box{
+  display: flex;
+}
+.flex_box li{
+  flex: auto;
+  list-style: none;
+  padding: 30px;
+}
+.flex_box img{
+  width: 100%;
+  padding: 10%;
+  border-radius: 5%;
+  background-color: rgb(166, 152, 177);
+
+}
+.educations{
+  width: 100%;
+  background-color: rgba(154, 4, 241, 0.945);
+  margin-top: 5px;
+  float: left;
+  padding-bottom: 20px;
+}
+.educations h3{
+  text-align: center;
+  background-color: rgb(162, 92, 253);
+  padding:  20px;
+  margin: 0;
+
+}
+.container{
+  margin: 20px auto;
+  width: 40%;
+}
+.edu_left{
+  float: left;
+  width: 100%;
+  border-color: rgb(213, 230, 213);
+  border-style: solid none solid solid;
+  padding:10px;
+  text-align: left;
+}
+.edu_right{
+  float: left;
+  width: 100%;
+  border-color: rgb(215, 233, 215);
+  border-style: none solid none none;
+  padding:10px;
+  text-align: right;
+}
+
+.courses{
+  width: 100%;
+  background-color: rgb(176, 127, 255);
+  margin-top: 5px;
+  float: left;
+  padding-bottom: 20px;
+}
+.courses h3{
+  text-align: center;
+  background-color: rgba(180, 255, 230, 0.9);
+  margin: 0px;
+  padding:15px;
+}
+.course{
+  width: 50%;
+  height: 90px;
+  background-color: rgba(180, 255, 230, 0.9);
+  float: left;
+}
+.course h4, .course p{
+  margin: 0;
+  padding: 10px;
+  text-align: left;
+}
+.footer{
+  background-position-y: center;
+  height: 120px;
+  float: left;
+  width: 100%;
+  padding: 20px 30px;
+  color: rgb(73, 64, 64);
+  margin-top: 5px;
+}
+
+.listfooter ul{
+  float: right;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  align-items: center;
+}
+.listfooter li{
+  height: 24px;
+  list-style: none;
+  margin: 5px;
+}
+.footer h2{
+  float: left;
+}
+.footer a{
+  float: left;
+  color: rgb(96, 96, 102);
+  text-decoration: none;
+
+}
+.footer img{
+  float: left;
+  margin-right: 5px;
+
+}
+
